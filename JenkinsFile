@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                echo 'Running script /// Now'
+                face_detection.py
             }
         }
     }
